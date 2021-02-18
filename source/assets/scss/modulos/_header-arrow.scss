@@ -1,0 +1,33 @@
+.header-arrow {
+  position: relative;
+  background: rgb(166,109,88);
+  background: linear-gradient(90deg, rgba(166,109,88,1) 0%, rgba(217,161,113,1) 100%); 
+  padding: 2rem;
+
+  h1,h2,h3 {
+      margin: 0;
+      color:white;      
+  }
+
+  &--xs {
+    padding: 0;
+    height: 8px;
+  }
+
+}
+
+.header-arrow::before {
+   content: '';
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    border-style: solid;
+    border-width: 25px 25px 0px 25px;
+    border-color: #be8664 transparent transparent transparent;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -18px;
+    margin-top: 0px; 
+    z-index: 20;
+}
+
