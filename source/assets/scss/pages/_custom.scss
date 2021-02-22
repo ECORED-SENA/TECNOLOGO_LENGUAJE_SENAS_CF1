@@ -293,6 +293,17 @@ font-size: .8em;
   margin-left: 70%;
 }
 
+.imgTopBar {
+  padding: 1rem;
+  background-color: rgb(196, 204, 240);
+  .imgTopBar_link {
+    text-decoration: none;     
+    p {
+      color: #471E89;
+    }
+  }
+}
+
 .img-a{
   display:block;
   margin:auto;
@@ -360,7 +371,7 @@ font-size: .8em;
 }
 
 .txt-color3{
-  color: #000000;
+  color: #01223D;
   font-size: 25px;
   font-weight: bold;
 }
@@ -446,6 +457,7 @@ font-size: .8em;
 }
 
 .txt-deco2{
+  color: #01223D;
   font-size: 30px;
   font-weight: bold;
 }
@@ -458,6 +470,7 @@ font-size: .8em;
 .txt-deco4{
   color: #FFFFFF;
   font-size: 40px;
+  line-height: 40px;
 }
 
 .txt-deco5{

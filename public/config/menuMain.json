@@ -143,7 +143,7 @@
   },
   { 
     "id": 5,
-    "icon": "fa fa-file-text-o",
+    "icon": "fa fa-play-circle",
     "slug": "contratacion",
     "title": "5. Contratación",
     "breadcrumb": ["Inicio","contratacion"],
