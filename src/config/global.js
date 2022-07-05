@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Definición de logística',
+            titulo: 'Definición',
             hash: 't_1_1',
           },
           {
@@ -248,7 +248,7 @@ export default {
     },
     {
       referencia:
-        'Ley 982 de 2005. Por la cual se establecen normas tendientes a la equiparación de oportunidades para las personas sordas y sordociegas y se dictan otras disposiciones. 2 de agosto de 2005. D.O. 45.995',
+        'Ley 982 de 2005. Por la cual se establecen normas tendientes a la equiparación de oportunidades para las personas sordas y sordociegas y se dictan otras disposiciones. 2 de agosto de 2005. D.O. 45.995.',
     },
     {
       referencia:

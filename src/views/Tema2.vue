@@ -35,7 +35,7 @@
                 i.fas.fa-quote-left
                 p <b>“Las entidades estatales de cualquier orden, incorporan paulatinamente dentro de los programas de atención al cliente, el servicio de intérprete y guía intérprete para las personas sordas y sordociegas que lo requieran de manera directa o mediante convenios con organismos que ofrezcan tal servicio.”</b> 
                 br
-                p.margin-texto Ley 982 de 2005.  
+                p.margin-texto <b>Ley 982 de 2005.</b>
                 i.fas.fa-quote-right
       .col-12.col-md-5
         figure

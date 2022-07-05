@@ -108,7 +108,7 @@
 
         .row.justify-content-around
           .col-xl-4
-            p Aanalizar los diversos escenarios en que se pueden prestar el servicio:
+            p Analizar los diversos escenarios en que se pueden prestar el servicio:
             ul.lista-ul.ms-4
               li
                 i.fas.far.fa-check
@@ -387,25 +387,25 @@
                       p.m-0 Distribución del recurso humano de acuerdo con el usuario.
                     li
                       i.fas.far.fa-check
-                      p.m-0 Distribución de tiempos
+                      p.m-0 Distribución de tiempos.
                     li
                       i.fas.far.fa-check
-                      p.m-0 Temáticas
+                      p.m-0 Temáticas.
                     li
                       i.fas.far.fa-check
-                      p.m-0 Materiales de apoyo
+                      p.m-0 Materiales de apoyo.
                     li
                       i.fas.far.fa-check
-                      p.m-0 Vocabulario
+                      p.m-0 Vocabulario.
                     li
                       i.fas.far.fa-check
                       p.m-0 Montaje y disposición de equipos (locación, iluminación, sonido, equipos tecnológicos, ubicación y visibilidad del intérprete).
                     li
                       i.fas.far.fa-check
-                      p.m-0 Ejecución del evento
+                      p.m-0 Ejecución del evento.
                     li
                       i.fas.far.fa-check
-                      p.m-0 Evaluación de resultados   
+                      p.m-0 Evaluación de resultados.  
                 .col-md-7
                   figure
                     img(src='@/assets/curso/tema1/img35.png', alt='Texto que describa la imagen')

@@ -96,7 +96,7 @@
     Separador
 
     .row.mb-4(data-aos="zoom-out-right")
-      .col-12.col-md-3
+      .col-12.col-md-4
         .tarjeta.color-primario.p-2
           h3.m-0.text-center <b>Habilidades profesionales</b>
 

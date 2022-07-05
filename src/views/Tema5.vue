@@ -41,7 +41,7 @@
               | Contrato a término fijo.
             li  
               i.fas.far.fa-check
-              | Contrato a término indefinido
+              | Contrato a término indefinido.
             li 
               i.fas.far.fa-check
               | Contrato de aprendizaje.
@@ -50,7 +50,7 @@
               | Contrato de obra o labor.
             li  
               i.fas.far.fa-check
-              | Contrato temporal
+              | Contrato temporal.
             
 
     Separador
