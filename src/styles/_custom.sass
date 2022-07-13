@@ -6,12 +6,14 @@
     background-color: #387DB8
 .fa-check:before 
     color: #1DD1FF
+    
 
 //Tarjeta Avatar Tema1
 .bg_color1
   background-color: #CDDEED
 .bg_color1:hover
   background-color: #387DB8
+  
 
 .tarjeta-avatar .tarjeta
   border-radius: 21px
@@ -47,11 +49,36 @@
   max-width: 168px
   @media screen and ( max-width: 420px )
     max-width: 270px
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    max-width: 139px
 
 .margin_l1
   margin-left: 2.5rem
+  margin-top: 3rem
   @media screen and ( max-width: 420px )
     margin-left: 0.5px
+    margin-top: 1rem
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    margin-left: 2rem
+    margin-top: 1.5rem
+    margin-bottom: 2rem
+
+.margin_etapa1
+  margin-left: 2.5rem
+  margin-top: 3rem
+  @media screen and ( max-width: 420px )
+    margin-left: 1rem
+    margin-top: 1rem
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    margin-left: 2rem
+    margin-top: 1.5rem
+
+.margin_etapa4
+  margin-left: 1.5rem
+  @media screen and ( max-width: 420px )
+    margin-left: 0rem
+    margin-top: 1rem
+
 //Etapas Tema1
 .tarjeta.color-acento-botones--borde 
     background-color: #CDDEED
@@ -65,7 +92,6 @@
 .tabs-a__tab
     background-color: #E8E8E8!important
   
-
 .img-fluid
   max-width: 100%
   height: auto
@@ -104,8 +130,6 @@
 
 .sld_2_t2
   @media screen and (max-width: 420px) 
-    .slyder-a__bullets 
-      width: 107%
     .slyder-a__btn--atrs
       width: 38px
       height: 38px
@@ -118,7 +142,7 @@
       margin-right: -43px
 
 .width_img30
-    width: 19%
+    width: 17%
     @media screen and ( max-width: 420px )
       width: 100%
 
@@ -194,8 +218,8 @@
 .width_tarjetas_t2
   @media screen and (max-width: 420px) 
     img
-      width: 30%
-      margin-left: 110px
+      width: 22%
+      
 
 .bg_color3
   background-color: #CDDEED
@@ -229,7 +253,7 @@
       transform: translatex(-10%) translatey(-45%)
   
 .cajon.color-acento-contenido
-    background-color: #CDDEED
+    background-color: #EAF2F8
 
 .tarjeta.color-secundario 
     background-color: #FAFDED
@@ -293,6 +317,9 @@ hr:not([size])
   .cajon.color-acento-contenido:before
       width: 45px
 
+.img68
+  max-width: 68px
+
 .width_franjacajon_t6
   .cajon.color-primario:before
     background-color: #CCE951
@@ -340,12 +367,12 @@ hr:not([size])
 .margin_tarjeta_t6
   margin-right: 5rem
   @media screen and (max-width: 420px) 
-    margin-right: -7rem
+    margin-right: 1rem
 
 .margin_center_tar_t6
   margin-right: 3rem
   @media screen and (max-width: 420px) 
-    margin-right: -7rem
+    margin-right: 0rem
 
 .margin_center_tar_t2
   margin-right: 5rem
@@ -356,3 +383,12 @@ hr:not([size])
 
 .banner-interno__fondo 
   background-image: url("../assets/curso/portada/banner-interno.svg")!important
+
+.tabs-a__tab:last-child 
+    margin-bottom: -10px !important
+    padding: 13px
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      padding: 10px
+
+.margin_lista-etapas
+  margin-bottom: -8px!important

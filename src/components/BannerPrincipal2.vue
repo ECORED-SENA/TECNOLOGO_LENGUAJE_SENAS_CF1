@@ -12,7 +12,7 @@
             p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
           router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
-            span Iniciar
+            span Ver más
             i.fas.fa-angle-right
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img.img-banner
@@ -72,7 +72,6 @@ export default {
     display: flex
     flex-direction: column
     justify-content: center
-    margin-left: 17px
     margin-top: 28px
     padding-left: 4rem!important
     @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
@@ -104,8 +103,9 @@ export default {
       margin-right: 24px
 
   &__accion
-    margin-left: -40px
-    margin-top: 35px
+    margin-left: -8%
+    margin-top: 4%
+    padding-bottom: 2.5rem
 
   &__row
     @if $banner-principal-img-x == 'derecha'

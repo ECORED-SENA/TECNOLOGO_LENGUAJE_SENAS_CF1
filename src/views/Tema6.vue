@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
-      h1 Perfiles y funciones
+      h1(data-aos="fade-right") Perfiles y funciones
 
     .row.mb-4
       .col-12.col-md-12
@@ -200,29 +200,28 @@
 
     p.mb-4 Definición y especificidades de cada uno de los ámbitos en los que se presenta el servicio de interpretación:
 
-    .row.justify-content-center(data-aos="fade-right")
-      .col-10.col-lg-4.col-xl-1.margin_center_tar_t6
-        img.img157(src='@/assets/curso/tema6/img25.svg')
+    .row.justify-content-center.mb-4(data-aos="fade-right")
+      .col-6.col-lg-4.col-xl-1.margin_center_tar_t6
+        img.img157.img-fluid.mx-auto(src='@/assets/curso/tema6/img25.svg')
         
-      .col-10.col-lg-4.col-xl-1.ms-0.ms-md-4.margin_center_tar_t6
-        img.img157(src='@/assets/curso/tema6/img26.svg')
+      .col-6.col-lg-4.col-xl-1.ms-0.ms-md-4.margin_center_tar_t6
+        img.img157.img-fluid.mx-auto(src='@/assets/curso/tema6/img26.svg')
         
-      .col-10.col-lg-4.col-xl-1.ms-0.ms-md-4.margin_center_tar_t6
-        img.img157(src='@/assets/curso/tema6/img27.svg')
+      .col-6.col-lg-4.col-xl-1.ms-0.ms-md-4.margin_center_tar_t6
+        img.img157.img-fluid.mx-auto(src='@/assets/curso/tema6/img27.svg')
         
-      .col-10.col-lg-4.col-xl-1.ms-0.ms-md-4.margin_center_tar_t6
-        img.img157(src='@/assets/curso/tema6/img28.svg')
+      .col-6.col-lg-4.col-xl-1.ms-0.ms-md-4.margin_center_tar_t6
+        img.img157.img-fluid.mx-auto(src='@/assets/curso/tema6/img28.svg')
             
-      .col-10.col-lg-4.col-xl-1.ms-0.ms-md-4.margin_center_tar_t6
-        img.img157(src='@/assets/curso/tema6/img29.svg')
+      .col-6.col-lg-4.col-xl-1.ms-0.ms-md-4.margin_center_tar_t6
+        img.img157.img-fluid.mx-auto(src='@/assets/curso/tema6/img29.svg')
         
-      .col-10.col-lg-4.col-xl-1.ms-0.ms-md-4.margin_center_tar_t6
-        img.img157(src='@/assets/curso/tema6/img30.svg')
+      .col-6.col-lg-4.col-xl-1.ms-0.ms-md-4.margin_center_tar_t6
+        img.img157.img-fluid.mx-auto(src='@/assets/curso/tema6/img30.svg')
         
-      .col-10.col-lg-4.col-xl-1.ms-3.margin_tarjeta_t6
-        img.img157(src='@/assets/curso/tema6/img31.svg')
-        
-    Separador
+      .col-6.col-lg-4.col-xl-1.ms-3.margin_tarjeta_t6
+        img.img157.img-fluid.mx-auto(src='@/assets/curso/tema6/img31.svg')
+  
 
 
 </template>

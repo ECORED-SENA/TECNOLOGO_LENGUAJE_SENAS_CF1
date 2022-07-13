@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Atención al usuario
+      h1(data-aos="fade-right") Atención al usuario
 
     .row.mb-4
       .col-12.col-md-12
@@ -68,9 +68,9 @@
           .col-sm-6.col-lg-3.mb-4.mb-sm-0
             .tarjeta.color-acento-contenido.p-3.h-100
               .row.justify-content-center.align-items-center
-                .col-md-3.padding__cero.width_tarjetas_t2
+                .col-md-3.padding__cero.width_tarjetas_t2.mb-3.mb-md-0
                   figure
-                    img(src='@/assets/curso/tema2/img04.svg')
+                    img.mx-auto(src='@/assets/curso/tema2/img04.svg')
                 .col-md-9
                   p.m-0.text-center <b>Eficacia:</b>
                   p.m-0.text-center obtención real de resultados y respuestas. 
@@ -78,9 +78,9 @@
           .col-sm-6.col-lg-3.mb-4.mb-sm-0
             .tarjeta.color-acento-contenido.p-3.h-100
               .row.justify-content-center.align-items-center
-                .col-md-3.padding__cero.width_tarjetas_t2
+                .col-md-3.padding__cero.width_tarjetas_t2.mb-3.mb-md-0
                   figure
-                    img(src='@/assets/curso/tema2/img05.svg')
+                    img.mx-auto(src='@/assets/curso/tema2/img05.svg')
                 .col-md-9
                   p.m-0.text-center <b>Rapidez:</b>
                   p.m-0.text-center el tiempo es un factor fundamental, siempre escaso y valioso.
@@ -88,18 +88,18 @@
           .col-sm-6.col-lg-3.mb-4.mb-sm-0
             .tarjeta.color-acento-contenido.p-3.h-100
               .row.justify-content-center.align-items-center.mt-2
-                .col-md-3.padding__cero.width_tarjetas_t2
+                .col-md-3.padding__cero.width_tarjetas_t2.mb-3.mb-md-0
                   figure
-                    img(src='@/assets/curso/tema2/img06.svg')
+                    img.mx-auto(src='@/assets/curso/tema2/img06.svg')
                 .col-md-9
                   p.m-0.text-center <b>Facilidad:</b> simplicidad, comodidad, ahorro de esfuerzo. 
 
           .col-sm-6.col-lg-3.mb-4.mb-sm-0
             .tarjeta.color-acento-contenido.p-3.h-100
               .row.justify-content-center.align-items-center.mt-2
-                .col-md-3.padding__cero.width_tarjetas_t2
+                .col-md-3.padding__cero.width_tarjetas_t2.mb-3.mb-md-0
                   figure
-                    img(src='@/assets/curso/tema2/img07.svg')
+                    img.mx-auto(src='@/assets/curso/tema2/img07.svg')
                 .col-md-9
                   p.m-0.text-center <b>Autonomía:</b> tendencia a preferir en lo posible sistemas autoservicio. 
           
@@ -107,33 +107,33 @@
           .col-sm-6.col-lg-3.mb-4.mb-sm-0
             .tarjeta.color-acento-contenido.p-3.h-100
               .row.justify-content-center.align-items-center
-                .col-md-3.padding__cero.width_tarjetas_t2
+                .col-md-3.padding__cero.width_tarjetas_t2.mb-3.mb-md-0
                   figure
-                    img(src='@/assets/curso/tema2/img08.svg')
+                    img.mx-auto(src='@/assets/curso/tema2/img08.svg')
                 .col-md-9
                   p.m-0.text-center <b>Concentración:</b>
                   p.m-0.text-center encontrar la respuesta completa en un sitio, por una sola vía. 
           .col-sm-6.col-lg-3.mb-4.mb-sm-0
             .tarjeta.color-acento-contenido.p-3.h-100
               .row.justify-content-center.align-items-center.mt-2
-                .col-md-3.padding__cero.width_tarjetas_t2
+                .col-md-3.padding__cero.width_tarjetas_t2.mb-3.mb-md-0
                   figure
-                    img(src='@/assets/curso/tema2/img09.svg')
+                    img.mx-auto(src='@/assets/curso/tema2/img09.svg')
                 .col-md-9
                   p.m-0.text-center <b>Fiabilidad:</b> garantías sobre el valor y calidad de la información recibida.
 
           .col-sm-6.col-lg-3.mb-4.mb-sm-0
             .tarjeta.color-acento-contenido.p-3.h-100
               .row.justify-content-center.align-items-center
-                .col-md-3.padding__cero.width_tarjetas_t2
+                .col-md-3.padding__cero.width_tarjetas_t2.mb-3.mb-md-0
                   figure
-                    img(src='@/assets/curso/tema2/img10.svg')
+                    img.mx-auto(src='@/assets/curso/tema2/img10.svg')
                 .col-md-9
                   p.m-0.text-center <b>Trato individualizado:</b>
                   p.m-0.text-center atención a las peculiaridades personales.
 
     .row.justify-content-center.mb-4
-      .col-12.col-md-6
+      .col-12.col-md-6.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/tema2/img11.png' data-aos="zoom-in-down")
       .col-12.col-md-6
@@ -199,7 +199,6 @@
             p.mb-0 Como último paso, la política de servicio al cliente debe ser compartida con los empleados, puede ser a través de una capacitación o charla programada donde todos escuchen el procedimiento que deben seguir al momento de atender la solicitud de un cliente, lo que permitirá un mayor control, seguimiento y posterior evaluación de esta.
               br
               br
-    Separador
 
 </template>
 

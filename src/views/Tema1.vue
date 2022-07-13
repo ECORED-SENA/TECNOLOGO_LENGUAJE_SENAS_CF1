@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Logística
+      h1(data-aos="fade-right") Logística
       
     .row.mb-4
       .col-12.col-md-12
@@ -58,7 +58,7 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar(data-aos="fade-right")
           img.img100(src='@/assets/curso/tema1/img04.svg' alt='AvatarTop')
-          .tarjeta.color.bg_color1
+          .tarjeta.color.bg_color1.text-white--hover
             .p-4
               h4.mb-4.text-center Nivel de servicio ofrecido:
               p.text-center Es la oferta que se realiza de acuerdo con los recursos tecnológicos, organizativos y económicos.
@@ -66,7 +66,7 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar(data-aos="zoom-in-down")
           img.img100(src='@/assets/curso/tema1/img05.svg' alt='AvatarTop')
-          .tarjeta.color.bg_color1
+          .tarjeta.color.bg_color1.text-white--hover
             .p-4
               h4.mb-4.text-center Nivel de servicio proporcionado:
               p.text-center Es el servicio que la organización presta realmente a sus clientes.
@@ -74,7 +74,7 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar(data-aos="fade-left")
           img.img100(src='@/assets/curso/tema1/img06.svg' alt='AvatarTop')
-          .tarjeta.color.bg_color1
+          .tarjeta.color.bg_color1.text-white--hover
             .p-4
               h4.mb-4.text-center Nivel de servicio percibido:
               p.text-center Es el servicio que aspira o desea recibir el cliente.
@@ -104,36 +104,36 @@
 
     TabsA.color-acento-botones(data-aos="fade-right")
       .tarjeta.color-acento-botones--borde.p-4(titulo="Etapa 1:")
-        h4.margin_l1.mt-3 Etapa 1
+        h4.margin_etapa1 Etapa 1
 
-        .row.justify-content-around
-          .col-xl-4
-            p Analizar los diversos escenarios en que se pueden prestar el servicio:
-            ul.lista-ul.ms-4
+        .row.justify-content-around.align-items-center
+          .col-xl-4.mb-4.mb-md-0
+            p.ms-3 Analizar los diversos escenarios en que se pueden prestar el servicio:
+            ul.lista-ul.ms-3
               li
                 i.fas.far.fa-check
-                p.m-0 Locación
+                p.margin_lista-etapas Locación
               li
                 i.fas.far.fa-check
-                p.m-0 Iluminación
+                p.margin_lista-etapas Iluminación
               li
                 i.fas.far.fa-check
-                p.m-0 Sonido
+                p.margin_lista-etapas Sonido
               li
                 i.fas.far.fa-check
-                p.m-0 Equipos tecnológicos
+                p.margin_lista-etapas Equipos tecnológicos
               li
                 i.fas.far.fa-check
-                p.m-0 Ubicación
+                p.margin_lista-etapas Ubicación
               li
                 i.fas.far.fa-check
-                p.m-0 Visibilidad del intérprete.
-          .col-xl-6.mb-4
+                p.margin_lista-etapas Visibilidad del intérprete.
+          .col-xl-7.mb-4
             figure
               img(src='@/assets/curso/tema1/img10.png', alt='Texto que describa la imagen')
       
       .tarjeta.color-acento-botones--borde.p-4(titulo="Etapa 2:")
-        h4.margin_l1.mt-3 Etapa 2
+        h4.margin_l1 Etapa 2
 
         .row.justify-content-around
           .col-xl-4
@@ -143,7 +143,7 @@
               img(src='@/assets/curso/tema1/img11.png', alt='Texto que describa la imagen')
       
       .tarjeta.color-acento-botones--borde.p-4(titulo="Etapa 3:")
-        h4.margin_l1.mt-3 Etapa 3
+        h4.margin_l1 Etapa 3
 
         .row.justify-content-around
           .col-xl-4
@@ -152,9 +152,9 @@
             figure
               img(src='@/assets/curso/tema1/img12.png', alt='Texto que describa la imagen')      
       .tarjeta.color-acento-botones--borde.p-4(titulo="Etapa 4:")
-        h4.ms-0.ms-md-4.mt-3 Etapa 4
+        h4.margin_etapa4 Etapa 4
 
-        .row.justify-content-around
+        .row.justify-content-evenly
           .col-xl-5
             p.m-0 Tener conocimiento de las características de la población objeto del servicio, para acordar un vocabulario pertinente al usuario.
             p “El Estado garantizará y proveerá la ayuda de intérpretes idóneos para que sea éste un medio a través del cual las personas sordas puedan acceder a todos los servicios que como ciudadanos colombianos les confiere la Constitución. Para ello el Estado organizará a través de entes oficiales o por convenios con asociaciones de sordos, la presencia de intérpretes para el acceso a los servicios mencionados” Ley 324 (1996).
@@ -164,7 +164,7 @@
               img(src='@/assets/curso/tema1/img13.png', alt='Texto que describa la imagen')
 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Etapa 5:")
-        h4.margin_l1.mt-3 Etapa 5
+        h4.margin_l1 Etapa 5
 
         .row.justify-content-around
           .col-xl-4
@@ -174,7 +174,7 @@
               img(src='@/assets/curso/tema1/img14.png', alt='Texto que describa la imagen')
       
       .tarjeta.color-acento-botones--borde.p-4(titulo="Etapa 6:")
-        h4.margin_l1.mt-3 Etapa 6
+        h4.margin_l1 Etapa 6
 
         .row.justify-content-around
           .col-xl-4
@@ -184,7 +184,7 @@
               img(src='@/assets/curso/tema1/img15.png', alt='Texto que describa la imagen')
 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Etapa 7:")
-        h4.margin_l1.mt-3 Etapa 7
+        h4.margin_l1 Etapa 7
 
         .row.justify-content-around
           .col-xl-4
@@ -194,7 +194,7 @@
               img(src='@/assets/curso/tema1/img16.png', alt='Texto que describa la imagen')
       
       .tarjeta.color-acento-botones--borde.p-4(titulo="Etapa 8:")
-        h4.margin_l1.mt-3 Etapa 8
+        h4.margin_l1 Etapa 8
 
         .row.justify-content-around
           .col-xl-4
@@ -351,30 +351,30 @@
                   p.mb-5 Hay 5 elementos que los consumidores toman en cuenta para la evaluación:
                   .row.justify-content-center.align-items-between
                     .col-md-3.width_img30                      
-                      figure.mb-2
+                      figure.mb-3
                         img.img168(src='@/assets/curso/tema1/img30.png')
                       h4 1. Elementos tangibles
-                      p.m-0 Apariencia del intérprete y presentación personal en estado óptimo.
+                      p.mb-4.mb-md-0 Apariencia del intérprete y presentación personal en estado óptimo.
                     .col-md-2
-                      figure.mb-2
+                      figure.mb-3
                         img(src='@/assets/curso/tema1/img31.png')
                       h4 2. Cumplimiento 
-                      p.m-0 Desarrollar el servicio de manera correcta y oportuna.
+                      p.mb-4.mb-md-0 Desarrollar el servicio de manera correcta y oportuna.
                     .col-md-2
-                      figure.mb-2
+                      figure.mb-3
                         img(src='@/assets/curso/tema1/img32.png')
                       h4 3. Disposición
-                      p.m-0 Ofrecer un servicio ágil y claro.
+                      p.mb-4.mb-md-0 Ofrecer un servicio ágil y claro.
                     .col-md-3.width_img30
-                      figure.mb-2
-                        img.img168(src='@/assets/curso/tema1/img33.png')
+                      figure.mb-3
+                        img.img168.mx-auto(src='@/assets/curso/tema1/img33.png')
                       h4 4. Perfil del personal
-                      p.m-0 Dominar el tema, solucionar los contratiempos e inspirar confianza.
+                      p.mb-4.mb-md-0 Dominar el tema, solucionar los contratiempos e inspirar confianza.
                     .col-md-2
-                      figure.mb-2
-                        img(src='@/assets/curso/tema1/img34.png')
+                      figure.mb-3
+                        img.mx-auto(src='@/assets/curso/tema1/img34.png')
                       h4 5. Empatía
-                      p.m-0 Participar en la realidad del cliente de forma objetiva y racional.
+                      p.mb-4.mb-md-0 Participar en la realidad del cliente de forma objetiva y racional.
               .row.justify-content-around
                 .col-md-4
                   h4.mb-4 Planificación y producción
@@ -410,7 +410,6 @@
                   figure
                     img(src='@/assets/curso/tema1/img35.png', alt='Texto que describa la imagen')
 
-    Separador
 
 
 </template>

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Aspectos administrativos
+      h1(data-aos="fade-right") Aspectos administrativos
 
     .row.mb-4
       .col-12.col-md-12
@@ -78,7 +78,6 @@
       .col-10.col-lg-4.col-xl-1.ms-0.ms-md-4.margin_center_tar_t2.mb-4.mb-md-0
         img.img190(src='@/assets/curso/tema4/img09.svg')
 
-    Separador
 
 </template>
 
